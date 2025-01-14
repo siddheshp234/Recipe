@@ -1,0 +1,148 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1rem;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #ff9800;
+    color: white;
+    text-align: center;
+    padding: 4em 2em;
+}
+
+.hero .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1em;
+}
+
+.cta-btn {
+    background-color: #333;
+    color: white;
+    padding: 0.5em 1.5em;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 1.5em;
+}
+
+.cta-btn:hover {
+    background-color: #555;
+}
+
+/* Recipe Section */
+.recipes {
+    padding: 3em 2em;
+    background-color: #fff;
+}
+
+.recipes h2 {
+    text-align: center;
+    margin-bottom: 2em;
+    font-size: 2rem;
+}
+
+.recipe-card {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1em 2em;
+    text-align: center;
+    background-color: #fafafa;
+    padding: 1em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+.recipe-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+}
+
+.recipe-card p {
+    color: #555;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #333;
+    color: white;
+    padding: 3em 2em;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.contact a {
+    color: #ff9800;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
